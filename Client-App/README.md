@@ -1,29 +1,20 @@
-# Helloworld app
+# Auth Client app
 ---------
-Author: Erik Jan de Wit   
-Level: Intermediate   
 Technologies: Javascript, Cordova, RHMAP   
 Summary: A demonstration of how to use [FH JavaScript SDK](https://github.com/feedhenry/fh-js-sdk) with RHMAP.   
 Community Project: [Feed Henry](http://feedhenry.org)   
 Target Product: RHMAP   
-Product Versions: RHMAP 3.8.0+   
-Source: https://github.com/feedhenry-templates/sync-cordova-app   
 Prerequisites: fh-js-sdk : 2.14.+, Cordova 5.0+   
 
 ## What is it?
 
-This application shows how you can use cloud call with the RHMAP platform, it should be used in combination with the [HelloWorld cloud app](https://github.com/feedhenry-templates/helloworld-cloud). Refer to [fhconfig.json](www/fhconfig.json) for configuration.
-
-If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
+This application shows how you can use cloud auth call with the RHMAP platform to authenticate credentials from client app, it should be used in combination with the [MBaaS App](https://github.com/srinivasa-vasu/rhmap-auth-mbaas/tree/master/MBaaS-App). Refer to [fhconfig.json](www/fhconfig.json) for configuration.
 
 ## How do I run it?  
 
 ### RHMAP Studio
 
-This application and its cloud services are available as a project template in RHMAP as part of the "Hello World Project" template.
-
 ### Local Clone (ideal for Open Source Development)
-If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
 
 ###  Prerequisites  
  * fh-js-sdk : 2.14.+
